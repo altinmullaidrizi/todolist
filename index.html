@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a4ecf9e646.js"></script>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div class="wrp">
+        <div class="input-wrapper">
+            <input id="input-list" type="text" name="input" placeholder="What do you want to do?">
+            <button onclick="addItem()" id="confirm-button" class="button-start"><i class="fas fa-plus"></i></button>
+        </div>
+
+        <div id="items">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

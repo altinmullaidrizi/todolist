@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+
+body{
+    background-color: #310110;
+    margin: auto;
+    width: 70%;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+}
+
+.wrp{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#input-list{
+    height: 30px;
+    background: #881238;
+    border: none;
+    border-bottom: 4px solid #660B28;
+    color: white;
+    line-height: 22px;
+    font-family: 'Roboto Slab';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+#input-list::placeholder{
+    color: #ffffffbd;
+    font-size: 16px;
+}
+input:active{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+.item{
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 250ms ease;
+    font-family: 'Roboto Slab';
+    font-weight: 200;
+}
+.item:hover{
+    color: #881238;
+}
+#confirm-button{
+    background-color: #e02762;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-bottom: 4px solid #660B28;
+    margin-top: 2px;
+}
+
+#items{
+    margin-top: 12%;
+    padding-left: 3%;
+    font-family: 'Roboto Slab';
+}
